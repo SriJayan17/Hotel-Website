@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6em;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+p{
+    margin-bottom: 10px;
+}
+a{
+    color:#333;
+    text-decoration: none;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: auto;
+}
+.primary-text{
+    color: #f7c08a;
+}
+.btn{
+    display: inline-block;
+    background: #333;
+    font-size: 18px;
+    color: #fff;
+    padding: 13px 20px;
+}
+.btn:hover{
+    background: #f7c08a;
+    color: #333;
+}
+.bgdark{
+    background: #333;
+    color: #fff;
+}
+.btn-light{
+    background: #f4f4f4;
+    color: #333;
+}
+.bglight{
+    background: #fff;
+    color: #333;
+}
+.bgprimary{
+    background: #f7c08a;
+    color: #333;
+}
+.clr{
+    clear: both;
+}
+#main-header #navbar{
+    background: #333;
+    color: #fff;
+    overflow: auto;
+} 
+#main-header #navbar h1{
+    float: left;
+    font-size: 30px;
+    padding-top: 20px;
+}
+#main-header #navbar ul{
+    float: right;
+    list-style: none;
+}
+#main-header #navbar ul li{
+    float: left;    
+}
+#main-header #navbar ul li a{
+    display: block;
+    color: #fff;
+    padding: 20px
+}
+#main-header #navbar ul li a:hover,
+#main-header #navbar ul li .current{
+    background: #666;
+    color: #f7c08a;
+}
+
+#showcase{
+    height: 600px;
+    background: url(./image_resources/showcase.jpg) no-repeat center center;
+    background-size: cover;
+}
+#showcase #showcase-content{
+    text-align: center;
+    color: #fff;
+}
+#showcase #showcase-content h2{
+    font-size: 60px;
+    padding-top: 170px;
+    padding-bottom: 35px;
+}
+#showcase #showcase-content p{
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 1.7em;
+    padding-bottom: 20px;
+}
+#homeinfo{
+    height: 400px;
+    overflow: auto;
+}
+#homeinfo #homeinfo-img{
+    float: left;
+    background: url(/image_resources/photo-1.jpg) no-repeat center center/cover;
+    width: 50%;
+    min-height: 100%;
+}
+#homeinfo #homeinfo-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+    overflow: hidden;
+}
+#homeinfo #homeinfo-content p{
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+.box{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 50px 30px;
+}
+.box i{
+    padding-bottom: 20px;
+}
+#main-footer{
+    background: #666;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}

@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+p{
+    margin-bottom: 10px;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+.primary-text{
+    color: #f7c08a;
+}
+.btn{
+    display: inline-block;
+    background: #333;
+    color: #f4f4f4;
+    padding: 13px 20px;
+    font-size: 18px;
+}
+.bgdark{
+    background: #333;
+}
+.btn-light{
+    background: #f4f4f4;
+    color: #333;
+}
+.bgprimary{
+    background: #f7c08a;
+    color: #333;
+}
+.box{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 50px;
+}
+.btn:hover{
+    background: #f7c08a;
+    color: #333;
+}
+.clr{
+    clear: both;
+}
+#header{
+    overflow: auto;
+}
+#navbar{
+    padding: 0px 20px;
+    background: #333;
+    color: #f4f4f4;
+    overflow: auto;
+}
+#navbar h1{
+    float: left;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+#navbar ul{
+    float: right;
+    list-style: none;
+    overflow: auto;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    display: block;
+    color: #f4f4f4;
+    padding: 20px;
+}
+#navbar ul li a:hover,
+#navbar ul li .current{
+    background: #666;
+    color: #f7c08a;
+}
+#showcase{
+    background: url("./image_resources/showcase.jpg") no-repeat center center/cover;
+    text-align: center;
+    height: 600px;
+    color: #f4f4f4;
+}
+#showcase #showcase-content{
+    margin: auto;
+    padding: 20px;
+}
+#showcase #showcase-content h2{
+    font-size: 60px;
+    padding-top: 120px;
+}
+#showcase #showcase-content p{
+    font-size: 20px;
+    line-height: 1.7em;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#homeinfo{
+    height: 400px;
+    overflow: auto;
+}
+#homeinfo #homeinfo-img{
+    width: 50%;
+    min-height: 100%;
+    float: left;
+    background: url("/image_resources/photo-1.jpg") no-repeat center center/cover;    
+}
+#homeinfo #homeinfo-content{
+    width: 50%;
+    float: right;
+    color: #f4f4f4;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding: 50px;
+}
+#homeinfo #homeinfo-content p{
+    line-height: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+#features{
+    overflow: auto;
+}
+#main-footer{
+    background: #333;
+    text-align: center;
+    font-size: 18px;
+    color: #f4f4f4;
+    padding: 10px;
+}
